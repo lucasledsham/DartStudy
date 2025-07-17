@@ -1,0 +1,24 @@
+SELECIONAR QUAIS CARACTERES DA STRING DESEJA UTILIZAR (.substring())
+  final nome = "Lucas Ledsham";
+
+  var substringNome = nome.substring(6); //Determinando apos quantos caracteres deseja utilizar
+  print(substringNome); // Ledsham
+
+  var substringNome2 = nome.substring(0, 5); //Determinando o inicio e o fim
+  print(substringNome2); // Lucas
+
+
+PROCURAR SE EM UMA STRING CONTEM LETRAS OU PALAVRAS (.contains()):
+  final nome = "Lucas Ledsham";
+  var quantidadeLedsham = 0;
+  if (nome.contains("Ledsham")) {
+    quantidadeLedsham++;
+    print("Ledsham encontrado!\nTotal: $quantidadeLedsham");
+  }
+
+
+SEPARA UMA STRING DE ACORDO COM A SUA VONTADE, CRIANDO UMA LISTA STRING DOS ELEMENTOS PARTIDOS (.split())
+ var paciente = "Lucas Ledsham|30|Estudante Engenharia de Software|BH";
+ var dadosPaciente = paciente.split("|");
+ print(dadosPaciente); //[Lucas Ledsham, 30, Estudante Engenharia de Software, BH]
+ print("Idade: ${dadosPaciente[1]} anos"); //Idade: 30 anos

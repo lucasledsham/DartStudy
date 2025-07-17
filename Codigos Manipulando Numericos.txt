@@ -1,0 +1,11 @@
+exemplo: .isNegative -> METODOS .is DE INTEIROS DA PARA FAZER VARIAS COMPARACOES E RECEBER UM BOOLEAN:
+  final valor = -20;
+    if (valor.isNegative) {
+      print("Numero negativo!");
+    }
+
+
+.round() -> ARREDONDA NUMEROS DOUBLE:
+  final valorDouble = 10.65;
+  var valorArredondado = valorDouble.round();
+  print(valorArredondado); //11
