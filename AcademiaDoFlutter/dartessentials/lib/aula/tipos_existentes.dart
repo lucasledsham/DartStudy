@@ -63,5 +63,28 @@ void main() {
     telefones,
   ); // {Rodrigo: 123123123, Lucas: 909090909, Otavio: 123456789, Joao: 323232, Pedro: 132121, Paulo: 34512355}
 
-  // Runes, Symbol, Dynamic
+  // Runes, Symbol, Null, Dynamic
+
+  //Runes: representacao dos caracteres unicode
+  String emoji = '😀';
+  emoji.runes;
+  Runes letraA = Runes('\u0041');
+
+  // Symbols: Representam identificadores unicos no codigo
+  Symbol simbolo = #minhaVariavel;
+
+  // Null: Representa a ausencia de valor
+  // Pode ser qualquer valor
+  String? nomeNulo;
+  nomeNulo = 'X';
+  print(nomeNulo); // X
+  int? numeroNulo;
+  numeroNulo = 1;
+  print(numeroNulo); // 1
+
+  // Dynamic: Tipo dinamico que pode mudar durante a execucao
+  dynamic tipoDinamico = 'texto';
+  print(tipoDinamico); // texto
+  tipoDinamico = 1000.5;
+  print(tipoDinamico); // 1000.5
 }
