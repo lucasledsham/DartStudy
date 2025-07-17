@@ -87,4 +87,11 @@ void main() {
   print(tipoDinamico); // texto
   tipoDinamico = 1000.5;
   print(tipoDinamico); // 1000.5
+
+  //CUIDADO DYNAMIC - Erro pq um inteiro nao pode ser somado com uma string
+  tipoDinamico + 'Batata';
+  // Atencao!!!
+  // 1. Dynamic desabilita a verificacao de tipos em tempo de Compilacao
+  // 2. Pode introduzir erros dificeis de rastrear e em TEMPO DE EXECUCAO
+  // 3. Dynamic deve ser evitado
 }
