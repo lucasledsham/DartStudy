@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable
+// ignore_for_file: unused_local_variable, prefer_function_declarations_over_variables
 
 void main() {
   var somar = (int a, int b) => a + b;
