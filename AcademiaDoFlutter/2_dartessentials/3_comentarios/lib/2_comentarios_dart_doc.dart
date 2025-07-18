@@ -11,8 +11,8 @@
 
 /// Esta funcao calucula a soma de inteiros
 ///
-/// [a] e o primeiro numero inteiro
-/// [b] e o segundo numero inteiro
+/// - [a] e o primeiro numero inteiro
+/// - [b] e o segundo numero inteiro
 ///
 ///
 /// Exemplo de uso:
@@ -24,9 +24,9 @@ int soma(int a, int b) => a + b;
 
 /// Esta funcao calcula o IMC com base no peso e na altura fornecidos.
 ///
-/// [peso] peso em quilogramas
+/// - [peso] peso em quilogramas
 ///
-/// [altura] altura em metros
+/// - [altura] altura em metros
 ///
 /// Exemplo de uso
 /// ```dart
