@@ -11,6 +11,12 @@ void main() {
   //Nao precisa declarar o tipo, igual com o var
   final idade = 18;
 
+  // Pode ser criado e depois alocado o valor da variavel
+  // Porem, depois de alocado, nao dara para mudar
+  final teste;
+  teste = 10; // Pode
+  // teste = 5; // Nao pode
+
   // apiUrl = 'final;'; Nao permite setar novamente
 }
 
