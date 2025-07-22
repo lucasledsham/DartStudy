@@ -1,4 +1,5 @@
 // Nao utiliar Bang operator (!) SEM FAZER UMA CHECAGEM DE NULO ANTES
+// USE COM CAUTELA E CUIDADO
 
 // ignore_for_file: file_names, unused_local_variable
 
