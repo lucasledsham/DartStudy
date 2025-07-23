@@ -6,7 +6,7 @@
   nomes.insert(0, "Jose");
 
 
-.ADDALL -> ADICIONANDO MAIS DE UM ITEM AO MESMO TEMPO EM UMA LISTA
+.ADDALL -> ADICIONANDO MAIS DE UM ITEM AO MESMO TEMPO EM UMA LISTA, PODE TAMBEM ADICIONAR UMA OUTRA LISTA
   final nomes = ["Rodrigo", "Joao", "Maria", "Guilherme"];
   nomes.addAll(["Pedro", "Lucas", "Matheus"]);
 
