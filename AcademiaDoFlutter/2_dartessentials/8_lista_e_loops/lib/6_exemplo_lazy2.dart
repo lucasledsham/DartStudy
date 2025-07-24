@@ -20,4 +20,10 @@ void main() {
   listaBatatas.toList();
 
   // print(listaBatatas.toList());
+
+  // So pegar um tipo de uma lista
+
+  final listaGenetrica = [10, 'Oi', 'Nunes', 32, true, false, 'Leal', 99, 88.5];
+  final listaInt = listaGenetrica.whereType<int>();
+  print(listaInt.toList());
 }
