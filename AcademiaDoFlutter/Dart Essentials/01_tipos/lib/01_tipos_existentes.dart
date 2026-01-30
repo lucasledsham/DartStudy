@@ -13,4 +13,8 @@ void main() {
 
   //Interpolação
   String nomeCompleto = '$nome Ledsham'; // Lucas Ledsham
+
+  // Boolean
+  bool aprovado = true;
+  bool fome = false;
 }
