@@ -9,6 +9,9 @@ void main() {
   print(
     formatarEnderecoObrigatorio(rua: 'Estevão Pinto', cidade: 'Belo Horizonte'),
   );
+  // TESTE VALORES DEFAULT
+  print(saudacaoDefault(nome: 'Lucas'));
+  print(saudacaoDefault(nome: 'Lucas', saudacao: 'Seja Bem-Vindo'));
 }
 
 // PARAMETROS TIPOS
@@ -45,4 +48,9 @@ String formatarEnderecoObrigatorio({
   required String cidade,
 }) {
   return 'Rua: $rua\nCidade: $cidade';
+}
+
+// VALORES DEFAULT PARA PARAMETROS OPCIONAIS
+String saudacaoDefault({required String nome, String saudacao = 'Olá'}) {
+  return '$saudacao $nome';
 }
