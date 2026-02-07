@@ -7,4 +7,9 @@ Múltiplas
 Linhas
 */
 
-void main() {}
+void main() {
+  // Tree
+  // TODO: Códigos que faltam fazer
+  // FIXME: Corrigir código que apresenta erro ou bug
+  // HACK: Solução temporária para um problema específico (gambiarra)
+}
