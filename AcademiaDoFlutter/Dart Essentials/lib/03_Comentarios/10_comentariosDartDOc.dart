@@ -13,9 +13,9 @@ Boas práticas documentação:
 
 /// Esta função calcula a soma de números inteiros
 ///
-/// [a] é o primeiro número inteiro
+/// - [a] é o primeiro número inteiro
 ///
-/// [b] é o segundo número inteiro
+/// - [b] é o segundo número inteiro
 ///
 /// Exemplo de uso:
 /// ```dart
@@ -26,9 +26,9 @@ int soma(int a, int b) => a + b;
 
 /// **Esta função calcula o IMC com base no peso e altura fornecidos. O IMC é uma medida amplamente utilizada para avaliar se uma pessoa está em um peso saudável**
 ///
-/// [peso] é o peso da pessoa em quilogramas
+/// - [peso] é o peso da pessoa em quilogramas
 ///
-/// [altura] é a altura da pessoa em metros
+/// - [altura] é a altura da pessoa em metros
 ///
 /// Exemplo de uso:
 /// ```dart
