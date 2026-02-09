@@ -2,7 +2,6 @@
 import 'utils/calculo.dart';
 
 void main() {
-  somar(10, 20);
-
-  subtrair(10, 20);
+  print(somar(10, 20));
+  print(subtrair(50, 26));
 }
