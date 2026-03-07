@@ -2,18 +2,20 @@
 
 // Função que irá receber uma String que pode ser null
 String? cadastrarUsuario({String? nome, String? email}) {
-  String texto = 'Não possui cadasto';
+  String texto = 'Não possui cadastro';
+
   // Regra de Negócio todo o nome precisa estar em maiúsculo
   // var nomeMaiusculo = nome.toUpperCase(); Erro em tempo de Complilação, por poder receber nulo não é possível utilizar o método
 
   // NECESSÁRIO FAZER VERIFICAÇÃO
-  if (nome != null && email != null) {
+  if (nome != null) {
     var nomeMaiusculo = nome.toUpperCase();
-      texto = 'Usuário cadastrado com Sucesso';
+    if (email != null) {
+      texto = '$nomeMaiusculo cadastrado com sucesso!';
     } else {
       texto = '$nomeMaiusculo não possui email vinculado';
     }
-
   }
-    return texto;
+
+  return texto;
 }
