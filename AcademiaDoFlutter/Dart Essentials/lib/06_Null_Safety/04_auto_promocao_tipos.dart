@@ -27,6 +27,6 @@ void imprimirComprimeitoSeNaoNulo(String? texto) {
 void imprimirComprimentoVariavelGlobal() {
   if (nomeGlobal != null) {
     // nomeGlobal.length; Não é possível, necessário fazer converssão
-    (nomeGlobal as String).length;
+    (nomeGlobal as String).length; // Necessário fazer converssão para String
   }
 }
